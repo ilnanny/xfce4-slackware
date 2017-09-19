@@ -1,0 +1,65 @@
+#!/bin/sh
+
+# Slackware build script for dmz white
+# Written by Grigorios Bouzakis (grbzks@xsmail.com)
+
+# Ryan P.C. McQuen | Everett, WA | ryan.q@linux.com
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version, with the following exception:
+# the text of the GPL license may be omitted.
+
+# This program is distributed in the hope that it will be useful, but
+# without any warranty; without even the implied warranty of
+# merchantability or fitness for a particular purpose. Compiling,
+# interpreting, executing or merely reading the text of the program
+# may result in lapses of consciousness and/or very being, up to and
+# including the end of all existence and the Universe as we know it.
+# See the GNU General Public License for more details.
+
+# You may have received a copy of the GNU General Public License along
+# with this program (most likely, a file named COPYING).  If not, see
+# <http://www.gnu.org/licenses/>.
+
+# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal Xfce Project
+
+PRGNAM=dmz-cursor-theme
+VERSION=${VERSION:-0.4.4}
+ARCH=noarch
+BUILD=${BUILD:-1}
+TAG=${TAG:-_xsb}
+
+wget -c http://ftp.de.debian.org/debian/pool/main/d/dmz-cursor-theme/dmz-cursor-theme_0.4.4.tar.gz
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp/xsb}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/dmz-cursor-theme_0.4.4.tar.gz
+cd $PRGNAM-$VERSION/DMZ-White/pngs
+sh make.sh
+
+cd $TMP
+cd $PRGNAM-$VERSION
+install -d $PKG/usr/share/icons/Vanilla-DMZ/cursors
+cp -a DMZ-White/xcursors/* $PKG/usr/share/icons/Vanilla-DMZ/cursors
+install -Dm644 DMZ-White/index.theme $PKG/usr/share/icons/Vanilla-DMZ/index.theme
+
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
+
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}

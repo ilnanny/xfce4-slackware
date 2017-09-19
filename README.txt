@@ -1,12 +1,9 @@
-# xfce4-slackware
-XFCE4 Desktop Environment for Slackware O.S.
-_______________________________________________
------------------------------------------------
+
+
 Xfce4 Version: 4.12
 Xfce4 Source: http://archive.xfce.org/
 
-This source was built especially for those who want to use 
-the latest version of xfce4 with the pulseaudio or audio jack.
+This source was built especially for those who want to use the latest version of xfce4 with the pulseaudio or audio jack.
 
 Requirements:
 - slackware64 14.2
@@ -20,7 +17,7 @@ Contents:
 - mousepad
 - ristretto
 - thunar plugins
-- sensors plugins 
+- sensors plugins (inclusing nvidia sensors)
 
 How to install:
 - you need to download the .zip or clone git and then run the script
