@@ -26,7 +26,7 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal Xfce Project
+# Modified again by Cristian Pozzessere <ilnannyhack@gmail.com>  = ilnanny = for my personal Xfce Project'/
 
 # Set to 1 if you'd like to install/upgrade package as they are built.
 # This is recommended.

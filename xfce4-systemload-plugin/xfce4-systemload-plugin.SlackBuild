@@ -24,8 +24,8 @@
 
 # Maintained by Ozan Turkyilmaz ozan.turkyilmaz@gmail.com
 
-# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal Xfce Project
-
+# Modified again by Cristian Pozzessere <ilnannyhack@gmail.com>  = ilnanny = for my personal Xfce Project
+ 
 PKGNAM=xfce4-systemload-plugin
 VERSION=${VERSION:-1.1.99}
 BUILD=${BUILD:-1}

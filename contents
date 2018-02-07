@@ -1,12 +1,5 @@
-# xfce4-slackware
-XFCE4 Desktop Environment for Slackware O.S.
-_______________________________________________
-===============================================
-Xfce4 Version: 4.12
-Xfce4 Source: http://archive.xfce.org/
-===============================================
 
-Contents (+ extras):
+build-xfce.sh
 dmz-cursor-theme
 exo
 garcon
@@ -55,11 +48,4 @@ xfconf
 xfdesktop
 xfwm4
 
-===============================================
 
-How to install:
-clone git and then run the script
-sh build-xfce-pulse.sh (for pulseaudio)
-sh build-xfce-jack.sh (for jack audio)
-
-===============================================

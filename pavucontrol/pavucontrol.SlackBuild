@@ -5,7 +5,7 @@
 # Written by crocket (crockabiscuit@gmail.com)
 # Maintained by Christoph Willing <chris.willing@iinet.net.au>
 
-# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal Xfce Project
+# Modified again by Cristian Pozzessere <ilnannyhack@gmail.com>  = ilnanny = for my personal Xfce Project
 
 PRGNAM=pavucontrol
 VERSION=${VERSION:-3.0}

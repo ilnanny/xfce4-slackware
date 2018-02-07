@@ -28,7 +28,7 @@
 
 # Modified by Willy Sudiarto Raharjo <willysr@slackware-id.org> for MSB Project
 
-# Modified again by Eric Fernandes Ferreira <candelabrus@gmail.com> for my personal Xfce Project
+# Modified again by Cristian Pozzessere <ilnannyhack@gmail.com>  = ilnanny = for my personal Xfce Project
 
 PRGNAM=mm-common
 VERSION=${VERSION:-0.9.10}
