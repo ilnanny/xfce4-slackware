@@ -1,6 +1,5 @@
 # xfce4-slackware
 <p>XFCE4 Desktop Environment for Slackware O.S.</p>
-<p>_______________________________________________</p>
 <p>===============================================</p>
 <p>Xfce4 Version: 4.12</p>
 <p>Xfce4 Source: http://archive.xfce.org/</p>
