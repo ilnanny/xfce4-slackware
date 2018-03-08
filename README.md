@@ -1,65 +1,65 @@
 # xfce4-slackware
-XFCE4 Desktop Environment for Slackware O.S.
-_______________________________________________
-===============================================
-Xfce4 Version: 4.12
-Xfce4 Source: http://archive.xfce.org/
-===============================================
+<p>XFCE4 Desktop Environment for Slackware O.S.</p>
+<p>_______________________________________________</p>
+<p>===============================================</p>
+<p>Xfce4 Version: 4.12</p>
+<p>Xfce4 Source: http://archive.xfce.org/</p>
+<p>===============================================</p>
 
-Contents (+ extras):
-dmz-cursor-theme
-exo
-garcon
-glade
-gnome-icon-theme
-Greybird
-gtksourceview
-gtksourceview3
-gtk-xfce-engine
-libwnck3
-libxfce4ui
-libxfce4util
-libxnvctrl
-mm-common
-mousepad
-murrine
-orage
-pavucontrol
-ristretto
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
-tumbler
-vte3
-xarchiver
-xfce4-appfinder
-xfce4-clipman-plugin
-xfce4-cpufreq-plugin
-xfce4-cpugraph-plugin
-xfce4-dev-tools
-xfce4-notifyd
-xfce4-panel
-xfce4-power-manager
-xfce4-pulseaudio-plugin
-xfce4-screenshooter
-xfce4-sensors-plugin
-xfce4-session
-xfce4-settings
-xfce4-systemload-plugin
-xfce4-taskmanager
-xfce4-terminal
-xfce4-volumed-pulse
-xfce4-weather-plugin
-xfconf
-xfdesktop
-xfwm4
+<p>Contents (+ extras):</p>
+<p>dmz-cursor-theme</p>
+<p>exo</p>
+<p>garcon</p>
+<p>glade</p>
+<p>gnome-icon-theme</p>
+<p>Greybird</p>
+<p>gtksourceview</p>
+<p>gtksourceview3</p>
+<p>gtk-xfce-engine</p>
+<p>libwnck3</p>
+<p>libxfce4ui</p>
+<p>libxfce4util</p>
+<p>libxnvctrl</p>
+<p>mm-common</p>
+<p>mousepad</p>
+<p>murrine</p>
+<p>orage</p>
+<p>pavucontrol</p>
+<p>ristretto</p>
+<p>thunar</p>
+<p>thunar-archive-plugin</p>
+<p>thunar-media-tags-plugin</p>
+<p>thunar-volman</p>
+<p>tumbler</p>
+<p>vte3</p>
+<p>xarchiver</p>
+<p>xfce4-appfinder</p>
+<p>xfce4-clipman-plugin</p>
+<p>xfce4-cpufreq-plugin</p>
+<p>xfce4-cpugraph-plugin</p>
+<p>xfce4-dev-tools</p>
+<p>xfce4-notifyd</p>
+<p>xfce4-panel</p>
+<p>xfce4-power-manager</p>
+<p>xfce4-pulseaudio-plugin</p>
+<p>xfce4-screenshooter</p>
+<p>xfce4-sensors-plugin</p>
+<p>xfce4-session</p>
+<p>xfce4-settings</p>
+<p>xfce4-systemload-plugin</p>
+<p>xfce4-taskmanager</p>
+<p>xfce4-terminal</p>
+<p>xfce4-volumed-pulse</p>
+<p>xfce4-weather-plugin</p>
+<p>xfconf</p>
+<p>xfdesktop</p>
+<p>xfwm4</p>
 
-===============================================
+<p>===============================================</p>
 
-How to install:
-clone git and then run the script
-sh build-xfce-pulse.sh (for pulseaudio)
-sh build-xfce-jack.sh (for jack audio)
+<p>How to install:</p>
+<p>clone git and then run the script</p>
+<p>sh build-xfce-pulse.sh (for pulseaudio)</p>
+<p>sh build-xfce-jack.sh (for jack audio)</p>
 
-===============================================
+<p>===============================================</p>
