@@ -56,9 +56,6 @@
 
 <p>===============================================</p>
 
-<p>How to install:</p>
-<p>clone git and then run the script</p>
-<p>sh build-xfce-pulse.sh (for pulseaudio)</p>
-<p>sh build-xfce-jack.sh (for jack audio)</p>
+<p>Install via Scripts:</p>
 
 <p>===============================================</p>
